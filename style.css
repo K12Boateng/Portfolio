@@ -216,3 +216,26 @@ span {
     transform: translateY(0);
   }
 }
+
+/* Styles for smaller screens */
+@media screen and (max-width: 768px) {
+  /* Reduce the size of the image */
+  .home-img img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Position the image to the right */
+  .home-img {
+    width: 100%;
+    text-align: center; /* Align center to prevent image from sticking to the left */
+  }
+}
+
+/* Additional styles for better alignment */
+@media screen and (max-width: 500px) {
+  /* Adjustments for even smaller screens */
+  .home-content {
+    text-align: center; /* Center align content */
+  }
+}
